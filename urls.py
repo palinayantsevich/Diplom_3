@@ -1,0 +1,11 @@
+class Urls:
+    MAIN_PAGE = 'https://stellarburgers.nomoreparties.site/'
+    REGISTER_USER = f'{MAIN_PAGE}api/auth/register'
+    LOGIN_USER = f'{MAIN_PAGE}api/auth/login'
+    DELETE_USER = f'{MAIN_PAGE}api/auth/user'
+    LOGIN_PAGE = f'{MAIN_PAGE}login'
+    FORGOT_PASSWORD_PAGE = f'{MAIN_PAGE}forgot-password'
+    FORGOT_PASSWORD_RESET_PASSWORD_PAGE = f'{MAIN_PAGE}reset-password'
+    ORDER_FEED = f'{MAIN_PAGE}feed'
+    MY_ACCOUNT = f'{MAIN_PAGE}account/profile'
+    ORDER_HISTORY = f'{MAIN_PAGE}account/order-history'
