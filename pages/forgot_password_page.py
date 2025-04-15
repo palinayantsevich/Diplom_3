@@ -27,8 +27,6 @@ class ForgotPasswordPage(BasePage):
     @allure.step('Click on "Hide/display password" icon.')
     def wait_click_hide_icon(self):
         self.click_on_element_as_virtual_mouse(self.locators.RESTORE_PASSWORD_HIDE_ICON)
-        # self.wait_element_is_clickable(self.locators.RESTORE_PASSWORD_HIDE_ICON)
-        # self.click_on_element(self.locators.RESTORE_PASSWORD_HIDE_ICON)
 
     @allure.step('Check if the password is displayed in "Пароль" field.')
     def check_password_display(self):
